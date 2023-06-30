@@ -1,0 +1,35 @@
+i .fa-map-marker-alt{
+    color: #274C77 !important;
+}
+.img-fluid {
+    width: 100px;
+    height: 80px;
+  }
+.btn-rounded{
+    background-color: #274C77 !important;
+    border-color:#274C77 !important;
+}
+.nav-link:hover{
+    color: #274C77 !important;
+}
+.active-link{
+    color:#274C77 !important ;
+}
+  
+.custom-hero{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn.header-btn-collapse-nav{
+    background-color: #274C77 !important;
+    border-color:#274C77 !important ;
+}
+
+strong.d-block.text-color-primary{
+    color: #274C77 !important;
+}
+
+#about{
+    background-color: #8B8C89 !important;
+}
