@@ -33,4 +33,82 @@ strong.d-block.text-color-primary{
 #about{
     background-color: #8B8C89 !important;
 }
+/*Styling for the Landing Page*/
+.header-section {
+    position: relative;
+  }
+  
+  .header-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  h1{
+    color: #fff;
+    font-size: 70px;
+  }
+  p.custom-font-tertiary{
+    text-align: center;
+  }
+  h4.text-color-primary{
+    color: #6096BA !important;
+  }
+  .header-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+    color: #fff !important;
+   
+  }
+  
+  .header-text ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-text ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header-text ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .nav-link a:hover{
+    color: #274C77 !important;
+  }
+  .header-nav-links .nav-link.active,
+.header-nav-links .nav-link.active:hover,
+.header-nav-links .nav-link.active:focus {
+  color: #fff !important;
+}
 
+.header-nav-links .nav-link:hover {
+  color: #274C77 !important;
+}
+#sidebar .sidebar {
+    background-color: #6096BA !important;
+}
+section.get-in-touch{
+    background-color: #E7ECEF !important;
+}
+p.mb-2.text-color-tertiary{
+    color:#6096BA !important ;
+}
+a.custom-btn-outline{
+    background-color: #6096BA !important;
+    border-color: #6096BA !important;
+}
+p.mb-0.text-start, a.text-color-hover-primary{
+    color: #E7ECEF !important;
+}
+#footer{
+    background-color: #8B8C89 !important;
+}

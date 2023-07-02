@@ -1,0 +1,120 @@
+/*Register form styles*/
+* {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 400;
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#6096BA;
+  }
+  
+  section.signup {
+    margin-bottom: 150px;
+
+  }
+  input{
+    color: #fff;
+  }
+  
+  .container {
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0 15px 16.83px 0.17px #212020;
+    border-radius: 20px;
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+  
+  .signup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 75px 0;
+  }
+  
+  .signup-form {
+    overflow: hidden;
+    padding: 0 30px;
+    width: auto;
+  }
+  
+  .form-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 33px;
+    text-align: left;
+  }
+  
+  .register-form {
+    width: 100%;
+  }
+  
+  .signup-image {
+    overflow: hidden;
+    margin: 0 55px;
+    margin-top: 45px;
+    width: auto;
+  }
+  .register-form .form-group {
+    margin-bottom: 20px;
+  }
+  .register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+   background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  height: 40px;
+  width: 50%;
+  padding: 0 5px;
+  font-size: 16px;
+
+}
+
+.register-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.register-form label {
+  margin-bottom: 5px;
+}
+.form-submit {
+    padding: 10px 25px;
+    background-color: #274C77;
+    color: #fff;
+    font-size:16px;
+    border-radius: 15px;
+    border-color:#274C77 ;
+  }
+
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .signup-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-top: -15px; 
+  }
+  
+  .signup-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
