@@ -27,7 +27,7 @@ html .custom-btn-with-arrow-light:after {
 }
 
 html .custom-title-with-icon-primary:before {
-	color: #e41645 !important;
+	color: #274c78 !important;
 }
 
 html .custom-title-with-icon-secondary:before {
@@ -528,20 +528,20 @@ html .svg-stroke-color-hover-light svg:hover polygon {
 
 html .bg-color-primary,
 html .bg-primary {
-	background-color: #e41645 !important;
+	background-color: #274c78 !important;
 }
 
 html .bg-color-hover-primary:hover,
 html .bg-hover-primary:hover {
-	background-color: #e41645 !important;
+	background-color: #1b1516 !important;
 }
 
 html .bg-color-after-primary:after {
-	background-color: #e41645 !important;
+	background-color: #274c78 !important;
 }
 
 html .bg-color-hover-after-primary:after:hover {
-	background-color: #e41645 !important;
+	background-color: #274c78 !important;
 }
 
 html .bg-color-before-primary:before {
@@ -1902,17 +1902,17 @@ html .btn-check:focus + .btn-light {
 }
 
 html .btn-outline.btn-primary {
-	color: #e41645;
+	color: ;
 	background-color: transparent;
 	background-image: none;
-	border-color: #e41645;
+	border-color: #274c78;
 }
 
 html .btn-outline.btn-primary:hover,
 html .btn-outline.btn-primary.hover {
 	color: #FFF;
-	background-color: #e41645;
-	border-color: #e41645;
+	background-color: #274c78;
+	border-color: #274c78;
 }
 
 html .btn-outline.btn-primary:focus,
