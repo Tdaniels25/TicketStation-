@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- <script src="https://kit.fontawesome.com/96eb2a99a0.js" crossorigin="anonymous"></script> -->
     <title>Welcome</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="logo">
-            <img src="./img/logo.jpg" alt="">
-        </div>
-        <div class="text-center mt-4 name">
-            
-        </div>
-        <br>
-        <br>
-        <form class="p-3 mt-3">
-            <div class="form-field d-flex align-items-center">
-                <!-- <i class="fa-solid fa-user"></i> -->
-                <input type="text" name="userName" id="username" placeholder="Username">
-            </div>
-            <div class="form-field d-flex align-items-center">
-                <!-- <span class="fas fa-key"></span> -->
-                <input type="password" name="password" id="password" placeholder="Password">
-            </div>
-            <button class="btn mt-3">Login</button>
-        </form>
-        <div class="text-center fs-6">
-            <a href="#">Forgot password?</a> or <a href="./registration-form.html">Sign up</a>
-        </div>
-    </div>
+    <div class="main">
+		<section class="signup">
+		  <div class="container">
+			<div class="signup-content">
+			  <div class="signup-form">
+				<h2 class="form-title">Log In</h2>
+				<div class="form-container">
+				  <form method="POST" class="register-form" id="login-form">
+					
+					<div class="form-group">
+					  <label for="email"><i class="zmdi zmdi-email"></i></label>
+					  <input type="email" name="email" id="email" placeholder="Your Email">
+					</div>
+					<div class="form-group">
+					  <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+					  <input type="password" name="pass" id="pass" placeholder="Password">
+					</div>
+                   
+					<div class="form-group form-button">
+					  <input type="submit" name="login" id="login" class="form-submit" value="Log In">
+					</div>
+				  </form>
+				  <div class="signup-image">
+					<figure><img src="./img/logo.png" class="img-fluid" width="400" height="300" alt="SummitCentral Logo"></figure>
+					<a href="" class="signup-image-link">Not A Member? Sign Up</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+	  </div>
     <script src="./index.js"></script>
 </body>
 </html>
