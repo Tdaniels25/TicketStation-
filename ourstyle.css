@@ -1,0 +1,192 @@
+* {
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+nav > div img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+}
+
+.logBtn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.logBtn button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #252525;
+    background-color: #252525;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.logBtn img {
+    width: 30px;
+    height: 30px;
+}
+
+.hero {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    padding-top: 7%;
+    padding-left: 30px;
+    font-size: 2em;
+    background-image: linear-gradient(to bottom right, cadetblue, teal, steelblue);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+form input {
+    width: 80%;
+    padding-left: 10px;
+    color: #252525;
+}
+
+form button {
+    width: 20%;
+    height: 50px;
+    background-color: #252525;
+    border: none;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.ticket {
+    height: 200px;
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid #252525;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ticket img {
+    width: 100%;
+    height: 80%;
+}
+
+.ticket h4 {
+    font-size: 0.6em;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.ticket p {
+    font-size: 0.6em;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.ticket > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.ticket h4,
+.ticket p {
+    color: #252525;
+}
+
+.ticket button {
+    border: none;
+    width: 80px;
+    height: 90%;
+    border-radius: 20px;
+    background-color: #252525;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.controls img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+#events {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+select {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: .9em;
+}
+
+option {
+    color: #252525;
+}

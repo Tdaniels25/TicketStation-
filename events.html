@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SummitCentral</title>
+    <link rel="stylesheet" href="./ourstyle.css">
+    <script src="./script.js" defer async></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+            <img src="./media/logo.png" alt="logo">
+            <ul>
+                <li>Home</li>
+                <li>Events</li>
+                <li>Tickets</li>
+                <li>Contact US</li>
+            </ul>
+            </div>
+
+            <div class="logBtn">
+                <img src="./media/icon-cart-big.svg" alt="bag">
+                <button>Log In</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>SummitCentral.</h1>
+            <p>We are the Host of Hosts</p>
+
+            <form action="">
+                <input type="text" placeholder="Search By event name" id="searchInput">
+                <button type="submit" id="search">Search</button>
+            </form>
+
+            <div class="tickets">
+                <div class="controls">
+                    <select name="" id="filter">
+                        <option value="popular">Most Popular</option>
+                        <option value="free">Free</option>
+                        <option value="paid">Paid</option>
+                    </select>
+                    <div>
+                        <img src="./media/back.png" id="prevButton" alt=" left arrow">
+                        <img src="./media/next.png" id="nextButton" alt="right arrow">
+                    </div>
+                </div>
+                <div id="events">
+                    <!-- TICKEST WILL GO HERE INJECTED WITH JAVASCRIPT -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
