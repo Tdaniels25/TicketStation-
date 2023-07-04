@@ -35,37 +35,75 @@ strong.d-block.text-color-primary{
     background-color: #8B8C89 !important;
 }
 /*Styling for the Landing Page*/
-.section-angled {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
+
+section.our-insights{
+  background-color: #FFF !important;
+}
+h4 a.text-color-dark{
+  color: #8B8C89 !important;
+}
+html .custom-btn-with-arrow-primary:after {
+	color: #274C77 !important;
+}
+a.text-color-primary{
+  color: #6096BA  !important;
+}
+.custom-list li:before {
+	background-color: #274C77 !important;
+}
+.side-menu-our-work .sort-source li a:before {
+	background-color: #274C77 !important;
+}
+#header .header-nav.header-nav-links nav > ul li:hover > a {
+  color: #274C77 !important;
+}
+#header .header-nav.header-nav-links nav > ul li:active > a {
+  color: #274C77 !important;
 }
 
-.section-angled-layer-bottom {
-  z-index: -1;
-  position: absolute;
-  top: 0;
+ .service-card.bg-color-tertiary{
+  background-color: #000 !important;
+  color: #fff !important;
 }
+.service-card.bg-color-dark{
+  background-color: #274C77 !important;
+}
+
+.section-angled-content {
+  position: relative;
+  z-index: 2;
+}
+
 
 .header-image {
   position: relative;
   overflow: hidden;
-  margin-top: -100px;
+  margin-top: 0; /* Adjust the value as needed */
+  text-align: center; 
 }
+
 
 .header-image img {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0 auto; 
 }
 
 .header-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  top: 0; 
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
   text-align: center;
   z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-angled-content {
@@ -78,8 +116,10 @@ strong.d-block.text-color-primary{
   z-index: 3;
 }
 
-
-
+.container {
+  position: relative; 
+  z-index: 4; 
+}
   h1.text-color-light{
     color: #fff !important;
     font-size: 70px;
@@ -133,7 +173,8 @@ strong.d-block.text-color-primary{
   
   
 section.get-in-touch{
-    background-color: #E7ECEF !important;
+    background-color: #274C77 !important;
+    color: #000 !important;
 }
 p.mb-2.text-color-tertiary{
     color:#6096BA !important ;
@@ -148,3 +189,7 @@ p.mb-0.text-start, a.text-color-hover-primary{
 #footer{
     background-color: #000;
 }
+
+
+
+

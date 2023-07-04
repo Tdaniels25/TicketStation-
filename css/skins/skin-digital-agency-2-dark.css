@@ -3,7 +3,7 @@
 }
 
 html .custom-btn-with-arrow-primary:after {
-	color: #e41645 !important;
+	color: #e41645;
 }
 
 html .custom-btn-with-arrow-secondary:after {
@@ -27,7 +27,7 @@ html .custom-btn-with-arrow-light:after {
 }
 
 html .custom-title-with-icon-primary:before {
-	color: #e41645 !important;
+	color: #e41645 ;
 }
 
 html .custom-title-with-icon-secondary:before {
@@ -58,7 +58,7 @@ html .custom-title-with-icon-light:before {
 
 @media (min-width: 992px) {
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #e41645 !important;
+		color: #e41645 ;
 	}
 }
 
@@ -180,11 +180,11 @@ html .text-light {
 
 html .text-color-hover-light:hover,
 html .text-hover-light:hover {
-	color: #FFF !important;
+	color: #FFF ;
 }
 
 html .svg-fill-color-primary {
-	fill: #e41645 !important;
+	fill: #e41645 ;
 }
 
 html .svg-fill-color-primary svg path,
@@ -192,11 +192,11 @@ html .svg-fill-color-primary svg rect,
 html .svg-fill-color-primary svg line,
 html .svg-fill-color-primary svg polyline,
 html .svg-fill-color-primary svg polygon {
-	fill: #e41645 !important;
+	fill: #e41645 ;
 }
 
 html .svg-fill-color-hover-primary:hover {
-	fill: #e41645 !important;
+	fill: #e41645 ;
 }
 
 html .svg-fill-color-hover-primary svg:hover path,
@@ -208,7 +208,7 @@ html .svg-fill-color-hover-primary svg:hover polygon {
 }
 
 html .svg-stroke-color-primary {
-	stroke: #e41645 !important;
+	stroke: #e41645 ;
 }
 
 html .svg-stroke-color-primary svg path,
@@ -216,11 +216,11 @@ html .svg-stroke-color-primary svg rect,
 html .svg-stroke-color-primary svg line,
 html .svg-stroke-color-primary svg polyline,
 html .svg-stroke-color-primary svg polygon {
-	stroke: #e41645 !important;
+	stroke: #e41645;
 }
 
 html .svg-stroke-color-hover-primary:hover {
-	stroke: #e41645 !important;
+	stroke: #e41645;
 }
 
 html .svg-stroke-color-hover-primary svg:hover path,
@@ -228,7 +228,7 @@ html .svg-stroke-color-hover-primary svg:hover rect,
 html .svg-stroke-color-hover-primary svg:hover line,
 html .svg-stroke-color-hover-primary svg:hover polyline,
 html .svg-stroke-color-hover-primary svg:hover polygon {
-	stroke: #e41645 !important;
+	stroke: #e41645 ;
 }
 
 html .svg-fill-color-secondary {
@@ -475,8 +475,7 @@ html .svg-stroke-color-hover-light svg:hover polygon {
 .svg-animation-effect-1-hover:hover svg polygon,
 .svg-animation-effect-1-hover:hover svg polyline,
 .svg-animation-effect-1-hover:hover svg rect {
-	stroke: #e41645;
-}
+	stroke:
 
 .svg-animation-effect-1-hover.svg-animation-effect-1-hover-primary:hover svg path,
 .svg-animation-effect-1-hover.svg-animation-effect-1-hover-primary:hover svg polygon,
@@ -537,19 +536,19 @@ html .bg-hover-primary:hover {
 }
 
 html .bg-color-after-primary:after {
-	background-color: #e41645 !important;
+	background-color: #e41645;
 }
 
 html .bg-color-hover-after-primary:after:hover {
-	background-color: #e41645 !important;
+	background-color: #e41645;
 }
 
 html .bg-color-before-primary:before {
-	background-color: #e41645 !important;
+	background-color: #e41645;
 }
 
 html .bg-color-hover-before-primary:before:hover {
-	background-color: #e41645 !important;
+	background-color: #e41645;
 }
 
 html .bg-color-secondary,
@@ -580,12 +579,12 @@ html .bg-color-hover-before-secondary:before:hover {
 
 html .bg-color-tertiary,
 html .bg-tertiary {
-	background-color: #e0e1e5 !important;
+	background-color: #e0e1e5 ;
 }
 
 html .bg-color-hover-tertiary:hover,
 html .bg-hover-tertiary:hover {
-	background-color: #e0e1e5 !important;
+	background-color: #e0e1e5 ;
 }
 
 html .bg-color-after-tertiary:after {
@@ -1118,8 +1117,8 @@ html .nav-pills-light > li.active > a:focus {
 }
 
 .sort-source.sort-source-style-3 > li.active > a {
-	border-bottom-color: #e41645 !important;
-	color: #e41645 !important;
+	border-bottom-color: #e41645;
+	color: #e41645 ;
 }
 
 html .badge-primary {
@@ -6118,11 +6117,11 @@ html .image-hotspot-tertiary .ring {
 }
 
 html .image-hotspot-quaternary strong {
-	color: #FFF !important;
+	color: #FFF ;
 }
 
 html .image-hotspot-quaternary .circle {
-	background: #777777 !important;
+	background: #777777 ;
 }
 
 html .image-hotspot-quaternary .ring {
@@ -6134,7 +6133,7 @@ html .image-hotspot-dark strong {
 }
 
 html .image-hotspot-dark .circle {
-	background: #292929 !important;
+	background: #292929;
 }
 
 html .image-hotspot-dark .ring {
@@ -6142,11 +6141,11 @@ html .image-hotspot-dark .ring {
 }
 
 html .image-hotspot-light strong {
-	color: #777 !important;
+	color: #777;
 }
 
 html .image-hotspot-light .circle {
-	background: #FFF !important;
+	background: #FFF;
 }
 
 html .image-hotspot-light .ring {
