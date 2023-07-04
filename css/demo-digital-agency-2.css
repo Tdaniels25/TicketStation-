@@ -299,71 +299,75 @@ html.mobile-menu-opened.sticky-header-active #header.header-transparent .header-
 
 /*
 * Approach Img
+
+
 */
+
+  
+ 
+  
+	
+  
+
+
 .approach-img {
-		position: relative;
-		display: block;
-		background-image: url("../../img/demos/digital-agency-2/bg/bg-3.png");
-		background-repeat: no-repeat;
-		border-radius: 50%;
-		min-width: 355px;
-		min-height: 360px;
-		max-width: 355px;
-		max-height: 360px;
-		margin: auto;
-		width: 100%;
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	width: 355px;
+	height: 360px;
+	margin: auto;
+	width: 100%;
 }
 
 .approach-img .custom-circle-1 {
-		display: block;
-		width: 50%;
-		height: 50%;
-		background-color: white;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		border-radius: 113px;
+	display: block;
+	width: 50%;
+	height: 50%;
+	background-color: #a3cef1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 113px;
 }
 
 .approach-img .custom-circle-2 {
-		display: block;
-		width: 25%;
-		height: 25%;
-		border-radius: 50%;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		background-image: url(../../img/demos/digital-agency-2/bg/bg-3.png);
-		background-position: center;
-		background-size: 500px;
+	display: block;
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #a3cef1;
 }
 
 .approach-img .custom-circle-our-approach-deco-1 {
-		width: 33px;
-		height: 31px;
-		border-radius: 50%;
-		top: 30px;
-		left: 30px;
+	width: 33px;
+	height: 31px;
+	border-radius: 50%;
+	top: 30px;
+	left: 30px;
 }
 
 .approach-img .custom-circle-our-approach-deco-2 {
-		width: 12px;
-		height: 12px;
-		border-radius: 50%;
-		top: 25%;
-		right: 2%;
-		transform: translateY(-50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	top: 25%;
+	right: 2%;
+	transform: translateY(-50%);
 }
 
 .approach-img .custom-circle-our-approach-deco-3 {
-		width: 12px;
-		height: 12px;
-		border-radius: 50%;
-		bottom: 0;
-		left: 20%;
-		transform: translateX(-50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	bottom: 0;
+	left: 20%;
+	transform: translateX(-50%);
 }
 
 /*

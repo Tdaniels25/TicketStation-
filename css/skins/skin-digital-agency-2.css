@@ -3,7 +3,7 @@
 }
 
 html .custom-btn-with-arrow-primary:after {
-	color: #e41645 !important;
+	color: #274c78 !important;
 }
 
 html .custom-btn-with-arrow-secondary:after {
@@ -58,7 +58,7 @@ html .custom-title-with-icon-light:before {
 
 @media (min-width: 992px) {
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #e41645 !important;
+		color: #274c78 !important;
 	}
 }
 
@@ -71,7 +71,7 @@ html .custom-title-with-icon-light:before {
 }
 
 .custom-list li:before {
-	background-color: #e41645;
+	background-color: #a3cef1;
 }
 
 .custom-accordion .custom-card-body-collapse {
@@ -580,7 +580,7 @@ html .bg-color-hover-before-secondary:before:hover {
 
 html .bg-color-tertiary,
 html .bg-tertiary {
-	background-color: #e0e1e5 !important;
+	background-color: #a3cef1 !important;
 }
 
 html .bg-color-hover-tertiary:hover,

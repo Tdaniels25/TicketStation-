@@ -436,7 +436,7 @@ html .svg-stroke-color-hover-light svg:hover polygon {
 
 html .bg-color-primary,
 html .bg-primary {
-	background-color: #43a6a3 !important;
+	background-color: #274c78 !important;
 }
 
 html .bg-color-hover-primary:hover,
@@ -1452,15 +1452,15 @@ html .btn-check:focus + .btn-tertiary {
 	color: #777;
 }
 
-html .btn-quaternary {
-	background-color: #333;
-	border-color: #333 #333 #1a1a1a;
+/* html .btn-quaternary {
+	background-color: #6096ba;
+	border-color: #6096ba #6096ba #6096ba;
 	color: #FFF;
-	--color: #333;
-	--hover: #464646;
+	/* --color: #fff; */
+	/* --hover: #464646;
 	--disabled: #333;
 	--active: #202020;
-}
+} */ */
 
 html .btn-quaternary:hover,
 html .btn-quaternary.hover {
@@ -1691,7 +1691,7 @@ html .btn-check:focus + .btn-dark {
 }
 
 html .btn-light {
-	background-color: #FFF;
+	background-color: #6096ba;
 	border-color: #FFF #FFF #e6e6e6;
 	color: #777;
 	--color: #FFF;

@@ -78,8 +78,7 @@ a.text-color-primary{
 .header-image {
   position: relative;
   overflow: hidden;
-  margin-top: 0; /* Adjust the value as needed */
-  text-align: center; 
+  margin-top: -100px;
 }
 
 
@@ -87,23 +86,15 @@ a.text-color-primary{
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto; 
 }
 
 .header-content {
-  position: relative;
-  top: 0; 
-  left: 0;
-  right: 0;
-  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   z-index: 1;
-}
-
-.header-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-angled-content {

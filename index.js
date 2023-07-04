@@ -81,7 +81,7 @@ let isValid = true;
       confirmPasswordInput.value = "";
 
       // Users are redirected to another page when all fields have the correct input
-      window.location.href = "demo-event.html";
+      window.location.href = "success.html";
   }
 ;
 
