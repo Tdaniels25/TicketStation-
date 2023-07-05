@@ -141,3 +141,90 @@ searchBtn.addEventListener("click", (e) => {
     
     updateEventContainer(searchResults);
   });
+
+  
+ 
+
+      // Function to render the events
+      function renderEvents(events) {
+        let eventsHTML = "";
+        for (var i = 0; i < events.length; i++) {
+          let event = events[i];
+          let eventMarkup = generateEventMarkup(event);
+          eventsHTML += eventMarkup;
+        }
+        eventsContainer.innerHTML = eventsHTML;
+      }
+
+      // Function to generate the markup for an event
+      function generateEventMarkup(event) {
+        return `
+          <div class="ticket" data-event-id="${event.id}">
+            <img src="${event.img}" alt="logo">
+            <div>
+              <div>
+                <h4>${event.name}</h4>
+                <p>${event.date}</p>
+              </div>
+              <button>Buy</button>
+            </div>
+          </div>
+        `;
+      }
+
+      // Function to add an event to the cart
+      function addToCart(event) {
+        let cartItems = document.getElementById("cartItems");
+        let cartItemHTML = `
+          <div class="cartItem">
+            <img src="${event.img}" alt="${event.name}">
+            <div>
+              <h3>${event.name}</h3>
+              <p>Date: ${event.date}</p>
+              <p>Price: ${event.price}</p>
+            </div>
+          </div>
+        `;
+        cartItems.innerHTML += cartItemHTML;
+        modal.style.display = "block";
+      }
+    });
+
+    //  This function is to render the events
+function renderEvents(events) {
+  let eventsHTML = "";
+  for (let i = 0; i < events.length; i++) {
+    let event = events[i];
+    let eventMarkup = generateEventMarkup(event);
+    eventsHTML += eventMarkup;
+  }
+  eventsContainer.innerHTML = eventsHTML;
+
+  // This will attach an event listener to the "Buy" buttons
+  let buyButtons = document.querySelectorAll('.ticket button');
+  buyButtons.forEach(function (button) {
+    button.addEventListener('click', function (event) {
+      let ticketElement = event.target.closest('.ticket');
+      let eventId = parseInt(ticketElement.dataset.eventId);
+      let event = events.find(function (event) {
+        return event.id === eventId;
+      });
+
+      if (event) {
+        addToCart(event);
+        redirectToCart();
+      }
+    });
+  });
+}
+
+function addToCart(event) {
+  // Adding the  event to cartItems array
+  cartItems.push(event);
+}
+
+function redirectToCart() {
+  // Redirects the user to shopping cart
+  window.location.href = "shopping-cart.html"; 
+}
+

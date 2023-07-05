@@ -40,7 +40,10 @@ section.our-insights{
   background-color: #FFF !important;
 }
 h4 a.text-color-dark{
-  color: #8B8C89 !important;
+  color: #274C77 !important;
+}
+h4 a.text-color-light{
+  color: #274C77 !important;
 }
 html .custom-btn-with-arrow-primary:after {
 	color: #274C77 !important;
@@ -125,6 +128,22 @@ a.text-color-primary{
   h4.text-color-primary{
     color: #6096BA !important;
   }
+  h4.text-color-light, h4.custom-text-10, 
+  h4.text-color-dark, h4.approach{
+    color: #000 !important;
+  }
+  h4.discover, h4.events-title{
+    color: #fff !important;
+  }
+  h4.card-title{
+    color: #fff !important;
+  }
+  h4.custom-text-9{
+    color: #FFF !important;
+  }
+  .service-card.bg-color-tertiary{
+    background-color: #6096BA !important;
+  }
   .header-text{
     position: absolute;
     top: 50%;
@@ -160,7 +179,13 @@ a.text-color-primary{
   .text-color-hover-secondary{
     color: #274C77 !important;
   }
-  
+  .btn-light{
+    background-color: #6096BA;
+    color: #fff;
+  }
+  a.text-color-hover-primary:hover {
+    color: #E7ECEF !important;
+  }
   
   
 section.get-in-touch{
@@ -180,7 +205,9 @@ p.mb-0.text-start, a.text-color-hover-primary{
 #footer{
     background-color: #000;
 }
-
+#header .header-nav-main.header-nav-main-mobile-dark nav > ul > li > a.active {
+  color: #274C77 !important;
+}
 
 
 

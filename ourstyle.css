@@ -190,3 +190,41 @@ select {
 option {
     color: #252525;
 }
+
+/*Styling for shopping cart*/
+/* Add this CSS code to your stylesheet or within <style> tags in the HTML */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Ensure it appears on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+  }
+  
+  .modal-content {
+    background-color: #E7ECEF; /* Use the provided hexadecimal color code */
+    margin: 15% auto; /* 15% from the top and centered horizontally */
+    padding: 20px;
+    border: 1px solid #6096BA; /* Use the provided hexadecimal color code */
+    width: 80%; /* Adjust the width as desired */
+  }
+  
+  .close {
+    color: #247C77; /* Use the provided hexadecimal color code */
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ff0000; /* Change color on hover/focus if desired */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
